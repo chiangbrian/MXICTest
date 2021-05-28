@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MXIC_PCCS-Web.config Connection String" description="MXIC_PCCS 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="data source=192.168.12.65;initial catalog=PCCS;user id=sa;password=1qaz@WSX;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\我是賠錢貨\\MXIC6969\\MXIC_PCCS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MXIC_PCCS']/@connectionString" />
+  </parameter>
+  <parameter name="MxicTest-Web.config Connection String" description="MxicTest 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="data source=192.168.12.65;initial catalog=METADATA;user id=sa;password=1qaz@WSX;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\我是賠錢貨\\MXIC6969\\MXIC_PCCS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MxicTest']/@connectionString" />
+  </parameter>
+  <parameter name="METADATA-Web.config Connection String" description="METADATA 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="data source=192.168.12.65;initial catalog=METADATA;user id=sa;password=1qaz@WSX;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\我是賠錢貨\\MXIC6969\\MXIC_PCCS\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='METADATA']/@connectionString" />
+  </parameter>
+</parameters>

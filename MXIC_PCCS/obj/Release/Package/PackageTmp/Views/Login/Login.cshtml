@@ -1,0 +1,49 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>旺宏電子計價系統</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+  
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/mxicfilm.css" rel="stylesheet" />
+</head>
+<body>
+    <figure><img src="~/Content/image/MXIC_Login_Bg.jpg" class="img-login-background" /></figure>
+    <div class="div-login-area">
+        <figure><img src="~/Content/image/MXIC_Logo.png" width="250" height="150" class="img-login-logo" /></figure>
+        <p class="title-slogon">旺宏電子計價系統</p>
+      
+      @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+      {
+            <div class="form-login">
+                <div>
+                    <label for="Account" class="label-left">員工編號:</label>
+                    <input name="Account" style="width:100%;height:30px;padding:10px;" autocomplete="off">
+                </div>
+                <div>
+                    <label for="Password" class="label-left">密碼:</label>
+                    <input type="password"  name="Password" style="width:100%;height:30px;padding:10px" autocomplete="off">
+                </div>
+                <input type="submit" value="登入" class="btn btn-primary login-summit" />
+           
+            </div>
+      } 
+    
+        
+@{
+    if (ViewData["ErrorMessage"] != null)
+    {
+        <h3> @Html.Raw(ViewData["ErrorMessage"].ToString()) </h3>
+        }
+    }
+            </div>
+        </body>
+        </html>

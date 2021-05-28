@@ -1,0 +1,308 @@
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\ApplicationInsights.config
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\csc.exe
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\csc.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\csc.rsp
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\csi.exe
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\csi.rsp
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.AppContext.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.Collections.Immutable.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\vbc.exe
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\vbc.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\vbc.rsp
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe.config
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\MXIC_PCCS.dll.config
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\MXIC_PCCS.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\MXIC_PCCS.pdb
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Antlr3.Runtime.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.Web.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.WindowsServer.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.ApplicationInsights.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.Web.Infrastructure.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Newtonsoft.Json.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Helpers.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Mvc.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Optimization.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Razor.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.Deployment.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.Razor.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\WebGrease.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Helpers.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Mvc.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Optimization.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.Razor.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.Deployment.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\System.Web.WebPages.Razor.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Antlr3.Runtime.pdb
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Newtonsoft.Json.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.ApplicationInsights.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.WindowsServer.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\Microsoft.AI.Web.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.Helpers.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.Mvc.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.Optimization.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.Razor.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\obj\Debug\MXIC_PCCS.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\obj\Debug\MXIC_PCCS.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\obj\Debug\MXIC_PCCS.pdb
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\EntityFramework.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\EntityFramework.SqlServer.dll
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\EntityFramework.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\EntityFramework.SqlServer.xml
+c:\users\user\documents\visual studio 2017\Projects\MXIC_PCCS\MXIC_PCCS\bin\zh-Hant\EntityFramework.resources.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\ApplicationInsights.config
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe.config
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\csc.rsp
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\csi.exe
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\csi.rsp
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.AppContext.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe.config
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.rsp
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll.config
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.pdb
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.pdb
+D:\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csprojAssemblyReference.cache
+D:\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.CoreCompileInputs.cache
+D:\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.dll
+D:\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.pdb
+D:\MXIC6969\MXIC_PCCS\bin\ApplicationInsights.config
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe.config
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\csc.rsp
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\csi.exe
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\csi.rsp
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.AppContext.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.Collections.Immutable.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe.config
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.rsp
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe
+D:\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe.config
+D:\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll.config
+D:\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll
+D:\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.pdb
+D:\MXIC6969\MXIC_PCCS\bin\Antlr3.Runtime.dll
+D:\MXIC6969\MXIC_PCCS\bin\EntityFramework.dll
+D:\MXIC6969\MXIC_PCCS\bin\EntityFramework.SqlServer.dll
+D:\MXIC6969\MXIC_PCCS\bin\EPPlus.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.DependencyCollector.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.Web.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.WindowsServer.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.ApplicationInsights.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.Web.Infrastructure.dll
+D:\MXIC6969\MXIC_PCCS\bin\Newtonsoft.Json.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Helpers.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Mvc.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Optimization.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Razor.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Deployment.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.dll
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Razor.dll
+D:\MXIC6969\MXIC_PCCS\bin\WebGrease.dll
+D:\MXIC6969\MXIC_PCCS\bin\EntityFramework.xml
+D:\MXIC6969\MXIC_PCCS\bin\EntityFramework.SqlServer.xml
+D:\MXIC6969\MXIC_PCCS\bin\EPPlus.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Helpers.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Mvc.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Optimization.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.Razor.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Deployment.xml
+D:\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Razor.xml
+D:\MXIC6969\MXIC_PCCS\bin\Antlr3.Runtime.pdb
+D:\MXIC6969\MXIC_PCCS\bin\Newtonsoft.Json.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.ApplicationInsights.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.DependencyCollector.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.WindowsServer.xml
+D:\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.Web.xml
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\EntityFramework.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.CopyComplete
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.Properties.Resources.resources
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.GenerateResource.Cache
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\Dapper.dll
+C:\Users\user\Documents\MXIC6969\MXIC_PCCS\bin\Dapper.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\ApplicationInsights.config
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\csc.exe.config
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\csc.rsp
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\csi.exe
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\csi.rsp
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.AppContext.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.Collections.Immutable.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.exe.config
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\vbc.rsp
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe.config
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll.config
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.pdb
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.Properties.Resources.resources
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.GenerateResource.Cache
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.pdb
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\obj\Debug\MXIC_PCCS.csprojResolveAssemblyReference.cache
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\MXIC_PCCS.XML
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Dapper.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\EntityFramework.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\EntityFramework.SqlServer.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\EPPlus.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.Helpers.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.Mvc.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.Optimization.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.Razor.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Deployment.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\System.Web.WebPages.Razor.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Antlr3.Runtime.pdb
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Newtonsoft.Json.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.ApplicationInsights.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.DependencyCollector.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.WindowsServer.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\Microsoft.AI.Web.xml
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\EntityFramework.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Helpers.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Mvc.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Optimization.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.Razor.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Deployment.resources.dll
+D:\我是賠錢貨\MXIC6969\MXIC_PCCS\bin\zh-Hant\System.Web.WebPages.Razor.resources.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\ApplicationInsights.config
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\csc.exe
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\csc.exe.config
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\csc.rsp
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\csi.exe
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\csi.rsp
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.AppContext.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.Collections.Immutable.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\System.Reflection.Metadata.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\vbc.exe
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\vbc.exe.config
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\vbc.rsp
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\roslyn\VBCSCompiler.exe.config
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\MXIC_PCCS.dll.config
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\MXIC_PCCS.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\MXIC_PCCS.pdb
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.License.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.Pdf.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.XLS.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Microsoft.mshtml.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.License.xml
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.Pdf.xml
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\bin\Spire.XLS.xml
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.Properties.Resources.resources
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.GenerateResource.cache
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.CoreCompileInputs.cache
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.csproj.CopyComplete
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.dll
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.pdb
+D:\賣噹噹\MXIC-NewIssue\MXIC_PCCS\obj\Debug\MXIC_PCCS.csprojAssemblyReference.cache

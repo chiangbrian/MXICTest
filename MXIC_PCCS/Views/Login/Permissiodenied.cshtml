@@ -1,0 +1,54 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>旺宏電子計價系統</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/mxicfilm.css" rel="stylesheet" />
+    <META HTTP-EQUIV="REFRESH" CONTENT="11; URL=../Login/Login">
+    <script language="JavaScript">
+            //先拿到目前的時間
+            startday = new Date();
+            clockStart = startday.getTime();
+
+            function initStopwatch() {
+                var myTime = new Date();
+                var timeNow = myTime.getTime();
+                var timeDiff = timeNow - clockStart; //現在的時間和起始的時間相減得到已經過的時間
+                this.diffSecs = timeDiff / 1000; //除以1000就是秒
+                return (this.diffSecs); //將差異秒數回傳給getSecs函數
+            }
+            function getSecs() {
+                var mySecs = initStopwatch();
+                var mySecs1 = "" + mySecs; //將數字變成文字
+                mySecs1 = 10 - eval(mySecs1.substring(0, mySecs1.indexOf("."))) + "秒"; //算出倒數的時間
+                document.form1.timespent.value = mySecs1; //將倒數時間顯示在頁面空隔中
+                window.setTimeout('getSecs()', 1000); //每1秒重新執行一次
+            }
+    </script>
+</head>
+<body onLoad="window.setTimeout('getSecs()',1)">
+    <figure><img src="~/Content/image/MXIC_Login_Bg.jpg" class="img-login-background" /></figure>
+    <div class="div-login-area" >
+        <figure><img src="~/Content/image/MXIC_Logo.png" width="250" height="150" class="img-login-logo" /></figure>
+        <p class="title-slogon"> 您目前沒有權限，無法存取此畫面</p>
+        <p class="title-slogon"> 請點選按鈕『返回上一頁』</p>
+        <p class="title-slogon"> 十秒後後網頁將導向至登入頁面</p>
+        <form name=form1><input readonly size=4 name=timespent></form>
+        <input type="button"  class="btn btn-primary login-summit" onclick="javascript:window.history.go(-1);" value="返回上一頁">
+        <input type="button" class="btn btn-primary login-summit" onclick="location.href='/Login/Login'" value="回到登入頁面">
+
+    
+    </div>
+</body>
+</html>
+

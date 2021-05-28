@@ -1,0 +1,247 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MXIC_PCCS</name>
+    </assembly>
+    <members>
+        <member name="M:MXIC_PCCS.Controllers.VendorManagementController.Shifts">
+            <summary>
+            班別List
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IDepartmentManagement.SearchDepToVen(System.String,System.String)">
+            <summary>
+            查詢(甚麼部門管理甚麼廠商)
+            </summary>
+            <param name="DepNo"></param>
+            <param name="DepName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IDepartmentManagement.DeleteDepToVen(System.String)">
+            <summary>
+            刪除(甚麼部門管理甚麼廠商)
+            </summary>
+            <param name="DeleteID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IDepartmentManagement.Venderdata">
+            <summary>
+            新增視窗grid資料
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IDepartmentManagement.AddDepToVen(System.String,System.String)">
+            <summary>
+            部門管理供應商
+            </summary>
+            <param name="DepName"></param>
+            <param name="VendorName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IQuotation.SearchQuotation(System.String,System.String,System.String)">
+            <summary>
+            報價單查詢
+            </summary>
+            <param name="VendorName"></param>
+            <param name="PoNo"></param>
+            <param name="PoClassID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IQuotation.ImportQuotation(System.String,System.String,System.Collections.Generic.List{MXIC_PCCS.Models.QuotationProperty})">
+            <summary>
+            匯入報價單
+            </summary>
+            <param name="VendorName"></param>
+            <param name="PoNo"></param>
+            <param name="Property_ListModel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IQuotation.ClearTable(System.String)">
+            <summary>
+            清空Table
+            </summary>
+            <param name="PoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IQuotation.ClearTableCheck(System.Web.HttpPostedFileBase)">
+            <summary>
+            匯入之前判斷資料是否重複
+            </summary>
+            <param name="PoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IQuotation.DelQuotation(System.String)">
+            <summary>
+            刪除報價單
+            </summary>
+            <param name="PoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.ScheduleList(System.Nullable{System.DateTime},System.Nullable{System.DateTime},System.String)">
+            <summary>
+            班表查詢
+            </summary>
+            <param name="SchedulDate"></param>
+            <param name="PoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.ImportSchedul(System.Web.HttpPostedFileBase)">
+            <summary>
+            匯入檔案
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.AddSchedul(MXIC_PCCS.Models.ScheduleProperty)">
+            <summary>
+            新增班表
+            </summary>
+            <param name="Model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.CleanSchedul(System.String,System.String,System.String)">
+            <summary>
+            清除當月般表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.ExportSchedul(System.String,System.String,System.String)">
+            <summary>
+            產出班表
+            </summary>
+            <param name="Year"></param>
+            <param name="Month"></param>
+            <param name="PoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IScheduleSetting.DelSchedule(System.String,System.String)">
+            <summary>
+            刪除班表資料
+            </summary>
+            <param name="ScheduleDate"></param>
+            <param name="SchedulePoNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IUserManagement.UserList(System.String,System.String,System.String,System.String)">
+            <summary>
+            人員列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IUserManagement.DeleteUser(System.String)">
+            <summary>
+            刪除使用者
+            </summary>
+            <param name="UserListID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IUserManagement.AddUser(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            新增使用者
+            </summary>
+            <param name="DepNo"></param>
+            <param name="DepName"></param>
+            <param name="UserID"></param>
+            <param name="UserName"></param>
+            <param name="Admin"></param>
+            <param name="PassWord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IUserManagement.EditUserDetail(System.String)">
+            <summary>
+            取得修改員工資料
+            </summary>
+            <param name="EditID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IUserManagement.EditUser(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            修改後資料
+            </summary>
+            <param name="EditID"></param>
+            <param name="DepNo"></param>
+            <param name="DepName"></param>
+            <param name="UserID"></param>
+            <param name="UserName"></param>
+            <param name="Admin"></param>
+            <param name="PassWord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IVendorManagement.VendorList(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            廠商人員
+            </summary>
+            <param name="VenID"></param>
+            <param name="PoNo"></param>
+            <param name="VendorName"></param>
+            <param name="EmpID"></param>
+            <param name="EmpName"></param>
+            <param name="DeleteVenID"></param>
+            <param name="EditVenID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IVendorManagement.AddVendor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            新增廠商人員
+            </summary>
+            <param name="VenID"></param>
+            <param name="PoNo"></param>
+            <param name="VendorName"></param>
+            <param name="EmpID"></param>
+            <param name="EmpName"></param>
+            <param name="DeleteVenID"></param>
+            <param name="EditVenID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IVendorManagement.DeleteVendor(System.String)">
+            <summary>
+            刪除廠商人員
+            </summary>
+            <param name="VenID"></param>
+            <param name="PoNo"></param>
+            <param name="VendorName"></param>
+            <param name="EmpID"></param>
+            <param name="EmpName"></param>
+            <param name="DeleteVenID"></param>
+            <param name="EditVenID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IVendorManagement.EditVendor(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            修改廠商人員
+            </summary>
+            <param name="VenID"></param>
+            <param name="PoNo"></param>
+            <param name="VendorName"></param>
+            <param name="EmpID"></param>
+            <param name="EmpName"></param>
+            <param name="DeleteVenID"></param>
+            <param name="EditVenID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MXIC_PCCS.DataUnity.Interface.IVendorManagement.EditVendorDetail(System.String)">
+            <summary>
+            修改廠商人員細節
+            </summary>
+            <param name="EditID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MXIC_PCCS.Properties.Resources">
+            <summary>
+              用於查詢當地語系化字串等的強類型資源類別。
+            </summary>
+        </member>
+        <member name="P:MXIC_PCCS.Properties.Resources.ResourceManager">
+            <summary>
+              傳回這個類別使用的快取的 ResourceManager 執行個體。
+            </summary>
+        </member>
+        <member name="P:MXIC_PCCS.Properties.Resources.Culture">
+            <summary>
+              覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+              使用這個強類型資源類別的資源查閱。
+            </summary>
+        </member>
+    </members>
+</doc>

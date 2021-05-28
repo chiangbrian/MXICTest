@@ -1,0 +1,1325 @@
+﻿.container {
+    background-color: #F3F2F2;
+    padding: 0;
+}
+
+.div-alert {
+    min-height: 560px;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.17);
+    font-family: '微軟正黑體', Arial, sans-serif;
+}
+
+.layout-title {
+    position: relative;
+    width: 100%;
+}
+
+.layout-username {
+    padding: 8px;
+    position: absolute;
+    right: 2%;
+    font-size: 15px;
+    top: 0;
+    display: inline-block;
+}
+
+    .layout-username > span {
+        float: left;
+    }
+
+    .layout-username > a {
+        margin-left: 10px;
+        float: left;
+    }
+
+.layout-title > img {
+    display: block;
+    width: 100%;
+}
+
+.nav-row {
+    margin: 0;
+    background-color: #01916d;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.navbar {
+    border-radius: 0;
+    height: 40px;
+    min-height: 0;
+    border-top: 3px solid #8ccb87;
+}
+
+.navbar-nav {
+    float: none;
+}
+
+.layout-path {
+    height: 40px;
+    background-color: #D6D6D6;
+    color: #01916d;
+}
+
+    .layout-path .navbar-collapse {
+        margin: 8px 16px;
+    }
+
+    .layout-path text {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .layout-path span {
+        vertical-align: 0;
+    }
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    height: 37px;
+    min-height: 0;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #01916d;
+        background-color: #fff;
+        box-shadow: inset 0 11px 8px -10px #CCC,inset 0 -11px 8px -10px #CCC;
+        height: 37px;
+        min-height: 0;
+    }
+
+.dashline {
+    border: 2px dashed #a9a7a7;
+}
+
+.table-hover thead > tr {
+    background-color: #3BA99C;
+}
+
+.table-hover thead th {
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #DDDDDD;
+}
+
+.table-header-fixed {
+    margin-bottom: 0;
+    table-layout: fixed;
+}
+
+    .table-header-fixed tbody td {
+        word-break:break-all !important;
+    }
+
+.table-header {
+    padding-right: 17px;
+}
+
+.dropdown-menu > li > a {
+    font-size: 16px;
+    color: #01916d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .dropdown-menu > li > a:hover {
+        color: #fff;
+        background-color: #01916d;
+    }
+
+footer {
+    background-color: #8C0144;
+    border-top: 3px solid #8C0144;
+    border-bottom: 3px solid #8C0144;
+    height: 35px;
+}
+
+    footer p {
+        text-align: center;
+        line-height: 30px;
+        color: #fff;
+        margin: 0;
+    }
+
+.table td {
+    vertical-align: middle;
+}
+
+.gotop {
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+}
+
+/* LOGIN CSS - start -*/
+
+.img-login-background {
+    height: 100vmin;
+    width: 100%;
+    position: relative;
+}
+
+.div-login-area {
+    position: absolute;
+    width: 70vmin;
+    height: 100vmin;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -37vmin;
+    text-align: center;
+}
+
+.img-login-logo {
+    margin-top: 20%;
+}
+
+#link-logo-area {
+    position: absolute;
+    width: 185px;
+    height: 60px;
+}
+
+.title-slogon {
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-login {
+    margin: 10px 0;
+    padding: 0 15vmin;
+}
+
+    .form-login h4 {
+        text-align: left;
+        margin-top: 30px;
+        margin-bottom: 3px;
+        color: #000000;
+        text-shadow: 0 0 10px rgba(255,255,255,0.9);
+        font-family: '微軟正黑體','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+.div-login-assistant {
+    margin-top: 15px;
+    font-family: '微軟正黑體','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a-login-forget {
+    float: right;
+    margin-right: 10px;
+    color: #2e2a2a;
+}
+
+.login-summit {
+    margin: 15px 25%;
+    width: 50%;
+    font-family: '微軟正黑體','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* LOGIN CSS - end -*/
+
+/*TreeView CSS - start -*/
+
+.tree-area {
+    overflow: auto;
+    height: 500px;
+    margin: 10px 0;
+}
+
+.tree, .tree ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .tree ul {
+        margin-left: 1em;
+        position: relative;
+    }
+
+        .tree ul ul {
+            margin-left: .5em;
+        }
+
+        .tree ul:before {
+            content: "";
+            display: block;
+            width: 0;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            border-left: 1px solid;
+        }
+
+    .tree li {
+        margin: 0;
+        padding: 0 0 0 1em;
+        line-height: 2em;
+        color: #369;
+        font-weight: 700;
+        position: relative;
+    }
+
+    .tree ul li:before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 0;
+        border-top: 1px solid;
+        margin-top: -1px;
+        position: absolute;
+        top: 1em;
+        left: 0;
+    }
+
+    .tree ul li:last-child:before {
+        background: #EAEAEA;
+        height: auto;
+        top: 1em;
+        bottom: 0;
+    }
+
+.indicator {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.tree li a {
+    text-decoration: none;
+    color: #369;
+}
+
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color: #369;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.btnrow-tree {
+    padding: 0 3px;
+    margin: 3px 10px;
+}
+
+    .btnrow-tree img {
+        margin-right: 5px;
+        box-shadow: 2px 2px 2px #CCC;
+    }
+
+.tree-rightline {
+    padding: 3px;
+    border-right: 3px dotted #01916d;
+}
+
+.div-machinelist-toprow {
+    height: 30px;
+    line-height: 30px;
+}
+
+.div-table-area {
+    height: 500px;
+}
+
+.div-table-area-1 {
+    height: 400px;
+}
+
+.div-table-area-head {
+    padding-right: 16px;
+}
+
+.div-table-area-body {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.panel {
+    margin: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.filter-panel {
+    background-color: #F3F2F2;
+    padding: 0 0 10px 0;
+    margin-top: 10px;
+}
+
+    .filter-panel .panel-heading {
+        color: #01916d;
+        padding: 8px;
+        margin-right: 18px;
+    }
+
+        .filter-panel .panel-heading div {
+            margin-top: -18px;
+            float: right;
+        }
+
+            .filter-panel .panel-heading div a {
+                color: #01916d;
+                margin: 0 5px;
+            }
+
+    .filter-panel .panel-filter-body {
+        display: none;
+        margin-right: 18px;
+    }
+
+.btn-list {
+    width: 30px;
+    height: 30px;
+    padding: 4px 4px;
+}
+
+.btn-square {
+    padding: 8px;
+}
+
+/*TreeView CSS - end -*/
+
+/* ReadMachineList */
+
+.machine-list-body {
+    height: 420px;
+    overflow-y: scroll;
+}
+/* ReadMachine CSS - start -*/
+.row {
+    margin: 0;
+}
+
+.machine {
+    position: relative;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+    .machine .col-md-3 {
+        position: relative;
+        min-height: 1px;
+        padding: 0;
+    }
+
+.div-machine-inline {
+    display: inline-block;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.machine .div-machine-inline input, .machine .div-machine-inline select {
+    padding: 0 2px;
+    height: 24px;
+}
+
+    .machine .div-machine-inline input.col-xs-7, .machine .div-machine-inline select.col-xs-7 {
+        width: 120px;
+    }
+
+.machine .div-machine-inline span.col-xs-5 {
+    padding: 0;
+    width: 80px;
+    float: left;
+}
+
+.machine-slide {
+    position: relative;
+    width: 185px;
+    height: 185px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+.carousel-inner {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.div-machine-img-btnrow {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+    .div-machine-img-btnrow .btn {
+        opacity: 0.5;
+    }
+
+        .div-machine-img-btnrow .btn:hover {
+            opacity: 0.8;
+        }
+
+.button-row input {
+    height: 55px;
+    width: 55px;
+    border: none;
+}
+
+.button-row {
+    text-align: center;
+    width: 185px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.machine-tab {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .machine-tab .tab-content {
+        background-color: #fff;
+        padding: 5px;
+        height: 260px;
+    }
+
+        .machine-tab .tab-content .col-xs-6 {
+            padding: 0;
+        }
+
+    .machine-tab .tab-content-row input:not([type="checkbox"]), #tabCorrectionProgram select {
+        width: 100px;
+    }
+
+    .machine-tab .tab-content-row span.col-xs-6 {
+        display: inline-block;
+        width: 85px;
+    }
+
+    .machine-tab label {
+        margin: 0;
+    }
+
+
+.panel-heading {
+    padding: 0 15px;
+    border-bottom: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #e1e1e1;
+}
+
+.panel-body {
+    background-color: #fff;
+    overflow: auto;
+    padding: 0;
+}
+
+.panel-body-1 {
+    background-color: #fff;
+    overflow: auto;
+    padding: 0;
+    height:550px;
+}
+
+.panel-two {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.machine-table-area {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.machine-table-area-1 {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.div-machine-tab-buttonrow {
+    margin-top: 8px;
+    line-height: 40px;
+}
+
+    .div-machine-tab-buttonrow .btn-primary {
+        float: right;
+        margin-right: 8px;
+    }
+
+    .div-machine-tab-buttonrow .btn-danger, .div-machine-tab-buttonrow text {
+        float: left;
+        margin-left: 10px;
+    }
+
+.row-machine-mail {
+    margin: 0;
+}
+
+    .row-machine-mail h4 {
+        text-align: center;
+    }
+
+    .row-machine-mail select, .row-machine-mail textarea {
+        width: 100%;
+        height: 380px;
+        overflow: auto;
+    }
+
+    .row-machine-mail .col-xs-1 {
+        height: 420px;
+        padding: 0;
+    }
+
+        .row-machine-mail .col-xs-1:before {
+            content: "";
+            height: 45%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+.machine-mail-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/* ReadMachine CSS - end -*/
+
+
+/* DatePicker CSS - start -*/
+
+.ui-datepicker {
+    background-color: #fff;
+    width: 17em;
+    display: none;
+}
+
+.ui-widget-content {
+    border: solid;
+    border-color: #217a79;
+}
+
+.ui-datepicker-header {
+    background-color: #217a79;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+    .ui-datepicker-header span:hover {
+        cursor: pointer;
+    }
+
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 5px;
+}
+
+.ui-datepicker-prev {
+    left: 5px;
+    color: #fff;
+}
+
+.ui-datepicker-next {
+    right: 5px;
+    color: #fff;
+}
+
+.ui-datepicker-title {
+    color: #000;
+}
+
+.ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+
+.ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+    color: #fff;
+    background-color: #217a79;
+}
+
+.ui-state-default {
+    display: table-cell;
+    padding: .4em .2em;
+    text-align: center;
+    font-weight: bold;
+    color: #217a79;
+    text-decoration: none;
+}
+
+    .ui-state-default:hover, .ui-datepicker-current-day {
+        background-color: darkgray;
+        text-decoration: none;
+    }
+
+.ui-datepicker-today {
+    background-color: #217a79;
+}
+
+    .ui-datepicker-today a {
+        color: white;
+    }
+
+/* DatePicker CSS - end -*/
+
+/* _ReadLogInfo CSS - start - */
+
+.div-log-inline {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding-left: 8px;
+}
+
+    .div-log-inline label, .div-log-inline input, .div-log-inline select {
+        vertical-align: middle;
+        padding: 0 2px;
+        margin: 0;
+        height: 25px;
+    }
+
+.log {
+    padding: 16px;
+    margin: 0;
+}
+
+    .log .col-xs-6 {
+        padding: 0 8px 0 0;
+    }
+
+    .log .col-xs-4, .log .col-xs-12, .log .col-xs-8, .log .col-xs-2, .log .col-xs-10 {
+        padding: 0;
+        margin: 0;
+    }
+
+.log-buttom {
+    width: 100%;
+    position: absolute;
+    bottom: 8px;
+    line-height: 42px;
+}
+
+    .log-buttom span, .log-buttom select {
+        margin: 0 8px;
+    }
+
+.loginfo-fileUpload {
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.fileUpload input.loginfo-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+/* _ReadLogInfo CSS - end -*/
+
+/* _ReadApprove CSS - start - */
+
+.div-approve-inline {
+    margin: 16px;
+}
+
+    .div-approve-inline input, .div-approve-inline select, .div-approve-inline textarea {
+        padding: 0 2px;
+    }
+
+.tree-approve {
+    height: 260px;
+    overflow: auto;
+    background-color: #fff;
+    margin-left: 15px;
+    border: 1px solid #A9A9A9;
+}
+
+    .tree-approve ul li:last-child:before {
+        background: #fff;
+        height: auto;
+        top: 1em;
+        bottom: 0;
+    }
+
+#selector {
+    width: 100%;
+    height: 260px;
+    overflow: auto;
+}
+
+/* _ReadApprove CSS - end - */
+
+/*Add by Jed*/
+.table-sortable tbody tr {
+    cursor: move;
+}
+
+/* _BorrowLog start - start - */
+
+.div-borrow-inline {
+    margin: 10px 10px 5px 10px;
+}
+
+    .div-borrow-inline div, .div-borrow-inline input, .div-borrow-inline select, .div-borrow-inline textarea {
+        padding: 0 2px;
+    }
+
+/* _BorrowLog CSS - end - */
+
+/* _ApproveHistory CSS - start - */
+
+.div-approve-history-title {
+    background-color: #d3d2d2;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.div-approve-history-table-area {
+    margin: 10px 0;
+}
+
+.div-approve-history-table-title {
+    background-color: #01916d;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+.div-approve-history-table {
+    overflow: auto;
+    height: 180px;
+    background-color: #fff;
+    border: 1px solid #01916d;
+}
+
+/* _ApproveHistory CSS - end - */
+
+/* Vendor - start - */
+
+.div-vendor-list-table {
+    height: 400px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.vendor-panel-body {
+    background-color: #fff;
+    overflow: auto;
+    padding: 10px;
+}
+
+
+/* Vendor - end - */
+
+/* _MaintenRecordLog - start - */
+
+.div-mainten-inline {
+    margin: 10px 20px 10px 10px;
+}
+
+/* _MaintenRecordLog - end - */
+
+/* ReadPersonGroup - start - */
+
+.content-title {
+    color: #01916d;
+    padding: 8px;
+}
+
+.content-heading {
+    background-color: #e1e1e1;
+}
+
+.content-table-area {
+    background-color: #F3F2F2;
+    height: 380px;
+    overflow-y: scroll;
+}
+
+.limit-content-area {
+    margin-top: 13px;
+    height: 450px;
+    overflow: auto;
+}
+
+    .limit-content-area .child {
+        display: inline-block;
+        float: left;
+    }
+
+/* ReadPersonGroup - end - */
+
+/* ReadLibrary - start - */
+
+.library-tree-area {
+    overflow: auto;
+    height: 500px;
+    margin: 10px;
+}
+
+/* ReadLibrary - end - */
+
+/* Report - start - */
+
+.report-search-area {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+    .report-search-area input, .report-search-area select {
+        margin-right: 5px;
+    }
+
+    .report-search-area .form-control {
+        width: auto;
+        display: inline-block;
+    }
+
+    .report-search-area h2 {
+        text-align: center;
+        margin: 10px;
+    }
+
+.report-result-area {
+    background-color: white;
+    padding: 15px;
+    height: 500px;
+    overflow: auto;
+    width:4500px;
+}
+
+.report-list-body {
+    height: 420px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.report-list-body .tr1{
+    width: 420px;
+}
+
+    .report-result-area .table {
+        white-space: nowrap;
+    }
+
+        .report-result-area .table th {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+/* Report - end - */
+
+/* Fitting - start - */
+
+#fittingArea .row, .create-fitting {
+    margin: 0;
+}
+
+.fit-bottom-area {
+    height: 180px;
+}
+
+    .fit-bottom-area text, .fit-bottom-area input[type=number] {
+        padding: 0 2px;
+    }
+
+    .fit-bottom-area .div-machine-inline {
+        padding: 0;
+        margin: 24px;
+    }
+
+    .fit-bottom-area .div-machine-tab-buttonrow > span {
+        margin-bottom: 16px;
+    }
+
+.fitting-list-body {
+    height: 420px;
+    overflow-y: scroll;
+}
+
+.fitting-storehouse-body {
+    height: 140px;
+    overflow-y: scroll;
+}
+
+/* Fitting - end - */
+
+/* Barcode - start - */
+.barcode-title {
+    padding: 8px 24px;
+}
+
+.barcode-input {
+    margin: 8px 0;
+}
+
+    .barcode-input input {
+        margin-left: 16px;
+    }
+
+    .barcode-input h5 {
+        display: inline-block;
+        width: 157px;
+        margin-left: 16px;
+    }
+
+.barcode-save {
+    padding: 8px 16px;
+}
+
+.download-content {
+    text-align: center;
+    padding-top: 32px;
+}
+
+    .download-content input {
+        margin-top: 16px;
+        padding: 5px;
+    }
+/* Barcode - end - */
+
+/*Home/Index*/
+
+.home-sidebar-base {
+    float: left;
+    width: 20%;
+    min-width: 150px;
+    height: 560px;
+    background-color: ghostwhite;
+}
+
+/*Sidebar Fac*/
+.home-sidebar-fac {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#sidebar-fac ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+}
+
+#sidebar-fac li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+    /* Change the link color on hover */
+    #sidebar-fac li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+
+/*Sidebar Department*/
+.home-sidebar-department {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: ghostwhite;
+}
+
+#sidebar-department ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+}
+
+#sidebar-department li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+
+    /* Change the link color on hover */
+    #sidebar-department li a:hover {
+        background-color: #555;
+        color: white;
+    }
+
+.button-base {
+    /*float: left;
+    width: 80%;
+    min-width:500px;*/
+    height: 560px;
+    overflow-y: scroll;
+}
+
+.button-content {
+    width: auto;
+    min-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.home-btn-machine {
+    float: left;
+    margin: 10px;
+}
+
+.home-btn-persongroup {
+    float: left;
+    margin: 10px;
+}
+
+.home-btn-eworksheet {
+    float: left;
+    margin: 10px;
+}
+
+.home-btn-fittingstock {
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* E-工單 */
+
+.eworksheet-list-area {
+    height: 340px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.eworksheet-search-area {
+    text-align: center;
+    padding: 16px 0;
+}
+
+    .eworksheet-search-area input, .eworksheet-search-area select {
+        margin-right: 16px;
+    }
+
+.eworksheet-checktable {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .eworksheet-checktable + span {
+        display: inline-block;
+        margin-top: 8px;
+    }
+
+.eworksheet-state-disabled, .eworksheet-state-undone, .eworksheet-state-done, .eworksheet-state-default, .eworksheet-state-updated {
+    width: 150px;
+    padding: 16px;
+    border: 2px solid #01916d;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.eworksheet-state-disabled {
+    border: 2px solid #666;
+    background-color: #CCC;
+    cursor: not-allowed;
+}
+
+.eworksheet-state-default {
+    background-color: none;
+}
+
+.eworksheet-state-undone {
+    background-color: #f0eca3;
+}
+
+.eworksheet-state-done {
+    background-color: #a9dad9;
+}
+
+.eworksheet-state-updated {
+    background-color: #ffcccc;
+}
+
+.eworksheet-state-icon {
+    padding: 4px 12px;
+    cursor: default;
+    margin-left: 12px;
+}
+
+.eworksheet-state-info {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+.eworksheet-checktable input[type=checkbox] {
+    cursor: pointer;
+}
+
+.eworksheet-create {
+    height: 460px;
+    margin: 16px 16px 0 16px;
+    /*text-align: center;*/
+    overflow: auto;
+}
+
+.eworksheet-create1 {
+    height: 655px;
+    margin: 16px 16px 0 16px;
+    /*text-align: center;*/
+    overflow: auto;
+}
+
+    .eworksheet-create table {
+        text-align: center;
+    }
+
+        .eworksheet-create table a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .eworksheet-create table input {
+            width: 100%;
+        }
+
+    .eworksheet-create input {
+        padding: 0 2px;
+    }
+
+        .eworksheet-create input[type=submit] {
+            margin-top: 16px;
+        }
+
+        .eworksheet-create input:read-only {
+            background-color: #EBEBEB;
+        }
+
+.eworksheet-inline {
+    padding-bottom: 8px;
+    margin-bottom: 6px;
+}
+
+    .eworksheet-inline span {
+        width: 145px;
+        display: inline-block;
+        text-align: right;
+    }
+
+        .eworksheet-inline span.eworksheet-inline-rmlot {
+            width: 80px;
+        }
+
+        .eworksheet-inline span.eworksheet-inline-rmlot-batch {
+            width: 85px;
+            margin-left: 12px;
+        }
+
+        .eworksheet-inline span.eworksheet-inline-rmlot-weight {
+            width: 71px;
+            margin-left: 12px;
+        }
+
+    .eworksheet-inline input {
+        width: 120px;
+    }
+
+.eworksheet-button-area {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+    .eworksheet-button-area ~ .btn-success {
+        position: fixed;
+        float: right;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .eworksheet-button-area ~ .btn-danger {
+        position: fixed;
+        float: left;
+        left: 20px;
+        bottom: 20px;
+    }
+
+.eworksheet-create-tablebody {
+    height: 290px;
+    overflow-y: scroll;
+}
+
+    .eworksheet-create-tablebody ~ a {
+        margin-top: 8px;
+    }
+
+
+/* PQS */
+
+.pqs-row {
+    padding: 0;
+}
+
+.pqs-row-full {
+    width: 100%;
+}
+
+.pqs-input-full {
+    width: 53%;
+}
+
+/* MachineHistory */
+.machineHistory-list-body {
+    height: 370px;
+    overflow-y: scroll;
+}
+
+
+/* EPMManualInput */
+.epmsearch-button{
+  display:inline-flex;
+}
+

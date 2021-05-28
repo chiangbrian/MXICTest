@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    @*//請按照順訊*@
+    <link href="~/Content/MXIC/font-awesome.min.css" rel="stylesheet" />
+
+    <link href="~/Content/MXIC/MXIC.css" rel="stylesheet" />
+    @*自己寫的js放這裡*@
+    <script src="~/Scripts/MXICJS/jquery.min.js"></script>
+
+    <script src="~/Scripts/MXICJS/MXIC.js"></script>
+
+    <script src="~/Scripts/MXICJS/jquery.jqgrid.min.js"></script>
+</head>
+
+<body>
+    <div class="head cover">
+        <div class="banner"></div>
+        <div class="navber">
+            <ul></ul>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+          
+            <p>&copy; @DateTime.Now.Year - YU-CHEN System Technology</p>
+        </footer>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<MXIC_PCCS.Models.MXIC_InputGenerate>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TableName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.COLUMN_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Generate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PopGenerate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GenerateType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AddPopGenerate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EditPopGenerate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GridTitleGenerate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GridFormatter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sequence)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TableName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.COLUMN_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Remarks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Generate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PopGenerate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GenerateType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AddPopGenerate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EditPopGenerate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GridTitleGenerate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GridFormatter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sequence)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.InputGenerateID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.InputGenerateID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.InputGenerateID })
+        </td>
+    </tr>
+}
+
+</table>

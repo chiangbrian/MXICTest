@@ -1,0 +1,62 @@
+﻿@{
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <title>MXIC</title>
+
+    @*//請按照順訊*@
+    <link href="~/Content/MXIC/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/MXIC/MXIC.css" rel="stylesheet" />
+    @*自己寫的js放這裡*@
+    <script src="~/Scripts/MXICJS/jquery-3.5.1.js"></script>
+   
+   
+    <script src="~/Scripts/MXICJS/MXICIndex.js"></script>
+    @*自己寫的js放這裡*@
+
+    <script src="~/Scripts/MXICJS/jquery.jqgrid.min.js"></script>
+   
+
+
+</head>
+
+<body><input type="hidden" id="UserID" value="@ViewBag.ID">
+    <div class="head">
+        <div class="banner"></div>
+        <div class="userLogin">
+            <div class="ulBtn">
+                <i class="fa fa-cogs" aria-hidden="true"></i><a class="admin" href="#" onclick="Setting()">Setting</a>
+            </div>
+            <div class="ulBtn">
+                <i class="fa fa-user-circle" aria-hidden="true"></i><a class="admin" href="\Login\LogOut">LogOut</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="marquee">
+            <div class="list">
+                <i class="fa fa-volume-up" aria-hidden="true"></i>
+                <div class="marqueeContant">
+                </div>
+                @*<i class="fa fa-chevron-down" aria-hidden="true" onclick="marqueeDown()"></i>
+                <i class="fa fa-chevron-up" aria-hidden="true" onclick="marqueeUp()"></i>*@
+            </div>
+        </div>
+        <div class="indexBTN">
+        </div>
+        @Html.Partial("~/Views/Webpage/_PartialSetting.cshtml")
+    </div>
+    <div class="footer">
+        <p>© 2020 -YU-CHEN System Technology</p>
+    </div>
+</body>
+
+
+</html>
+

@@ -1,0 +1,219 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>班表設定</title>
+
+    @*//請按照順訊*@
+    <link href="~/Content/MXIC/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/MXIC/MXIC.css" rel="stylesheet"/>
+    
+    @*自己寫的js放這裡*@
+    <script src="~/Scripts/MXICJS/jquery-3.5.1.js"></script>
+    <script src="~/Scripts/MXICJS/MXIC.js"></script>
+    <script src="~/Scripts/MXICJS/ScheduleSetting.js"></script>
+
+    @*自己寫的js放這裡*@
+    <script src="~/Scripts/MXICJS/jquery.jqgrid.min.js"></script>
+
+    <style>
+        body {
+            overflow: hidden;
+        }
+
+        .body {
+            overflow: hidden;
+        }
+
+        .editBox > a:nth-child(3) {
+            margin-right: 20px;
+        }
+
+        .editBox {
+            position: relative;
+        }
+
+            .editBox > a:nth-child(4) {
+                left: 418px;
+                position: absolute;
+                top: -0px;
+            }
+
+        form[name=form1] {
+            position: absolute;
+            top: 2000px;
+            left: 20000px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="hidden" id="UserID" value="@ViewBag.ID">
+    @if (TempData["message"] != null)
+    {
+        <script type="text/javascript">
+            var message = @Html.Raw(Json.Encode(TempData["message"]));
+            alert(message);
+        </script>
+        TempData["message"] = null;
+    }
+    <div class="head cover">
+        <div class="banner"></div>
+        <div class="navber">
+            <ul></ul>
+        </div>
+        <div class="userLogin">
+            <div class="ulBtn">
+                <i class="fa fa-home" aria-hidden="true"></i><a class="admin" href="\Home\">Home</a>
+            </div>
+            <div class="ulBtn">
+                <i class="fa fa-cogs" aria-hidden="true"></i><a class="admin" href="#" onclick="Setting()">Setting</a>
+            </div>
+            <div class="ulBtn">
+                <i class="fa fa-user-circle" aria-hidden="true"></i><a class="admin" href="\Login\LogOut">LogOut</a>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <h1 class="title cover"></h1>
+        <div class="seachBox cover">
+            <div class="inputBox">
+            </div>
+            <div class="editBox cover" style="width: 50%;">
+                <a href="#" class="seachBTN btn-1 Manager SuperAdmin " onclick=" transform()" style="width: 150px;">關帳轉檔</a>
+                <a href="#" class="seachBTN btn-1" onclick="seachBtn()">查詢</a>
+                <a href="#" class="seachBTN btn-1 Manager DelBtn" onclick="delect(this)">刪除</a>
+                <a href="#" class="seachBTN btn-1 Manager" onclick="DownloadExample()" style="width: 150px;">下載匯入格式</a>
+                <a href='#' class="seachBTN btn-1 Manager" onclick="openUpfile()">選擇檔案</a>
+                <a href='javascript:document.form1.submit();' class="seachBTN btn-1 Manager">匯入</a>
+                <form name='form1' action="@Url.Action("UploadSchedule")" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" id="file" class="seachBTN btn-1 Manager" accept=".xlsx" style="width: 250px; height: 50px;"/>
+                </form>
+            </div>
+        </div>
+        <div class="loading">
+            <svg viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <circle class="load one" cx="60" cy="60" r="40" />
+                <circle class="load two" cx="60" cy="60" r="40" />
+                <circle class="load three" cx="60" cy="60" r="40" />
+                <g>
+                    <circle class="point one" cx="45" cy="70" r="5" />
+                    <circle class="point two" cx="60" cy="70" r="5" />
+                    <circle class="point three" cx="75" cy="70" r="5" />
+                </g>
+            </svg>
+        </div>
+        <div class="tableContant hidden cover">
+            <table id="grid" cellpadding="0" cellspacing="0" border="0"></table>
+        </div>
+        <div class="insertBox popUp hidden">
+            <div class="box">
+                <div class="popUpHead">
+                    新增
+                </div>
+                <div id="insert" class="popUpContant insertPopUpContant">
+                </div>
+                <div class="popUpFooter">
+                    <a href="#" class="seachBTN btn-1 close-button" onclick="cancel()">取消</a>
+                    <a href="#" class="seachBTN btn-1" onclick="check()">確定</a>
+                </div>
+            </div>
+        </div>
+        <div class="delectBox popUp hidden">
+            <div class="box">
+                <div class="popUpHead">
+                    刪除班表資料
+                </div>
+                <div class="popUpContant">
+
+                    <div style="padding: 0% ;width: 100%;">
+                        選擇年月
+                        <input type="month"id="Date" name="Date" required="required">
+                        <input type="text" id="PoNo" placeholder="PONumber" required="required">
+                    </div>
+                </div>
+                <div class="popUpFooter">
+                    <a href="#" class="seachBTN btn-1 close-button" onclick="cancel()">取消</a>
+                    <a href="#" class="seachBTN btn-1" onclick="deleteScheduleCheck()">確定</a>
+                </div>
+            </div>
+        </div>
+        <div class="popEditBox popUp hidden">
+            <div class="box">
+                <div class="popUpHead">
+                    修改
+                </div>
+                <div id="edit" class="popUpContant editPopUpContant">
+
+                </div>
+                <div class="popUpFooter">
+                    <a href="#" class="seachBTN btn-1 close-button" onclick="cancel()">取消</a>
+                    <a href="#" class="seachBTN btn-1" onclick="Editcheck()">確定</a>
+                </div>
+            </div>
+        </div>
+        @Html.Partial("~/Views/Webpage/_PartialSetting.cshtml")
+    </div>
+    <div class="footer cover">
+        <p>© 2020 -YU-CHEN System Technology</p>
+    </div>
+</body>
+</html>
+<script>
+    function openUpfile() {
+        $('input[type=file]').click();
+    }
+
+    function DownloadExample()
+    {
+        window.location = '/ScheduleSetting/DownloadScheduleExample';
+    }
+
+    //function ExportSchedule() {
+
+    //    seachInputValue = []
+    //    inputLength = document.querySelectorAll('input[name="seachTextInput"]').length;
+    //    for (i = 0; i < inputLength; i++) {
+
+    //        value = document.querySelectorAll('input[name="seachTextInput"]')[i].value;
+    //        obj = value
+    //        seachInputValue.push(obj);
+    //    }
+    //    console.log(seachInputValue)
+    //    seachobj = '';
+    //    for (x = 0; x < AjaxSelect.length; x++) {
+
+    //        seachobj += AjaxSelect[x] + '=' + seachInputValue[x] + '&'
+
+    //    }
+    //    console.log(seachobj)
+
+    //    window.location = '/ScheduleSetting/ExportSchedule?' + seachobj;
+    //}
+
+    function transform() {
+
+        seachInputValue = []
+        inputLength = document.querySelectorAll('input[name="seachTextInput"]').length;
+        for (i = 0; i < inputLength; i++) {
+
+            value = document.querySelectorAll('input[name="seachTextInput"]')[i].value;
+            obj = value
+            seachInputValue.push(obj);
+        }
+        console.log(seachInputValue)
+        seachobj = '';
+        for (x = 0; x < AjaxSelect.length; x++) {
+
+            seachobj += AjaxSelect[x] + '=' + seachInputValue[x] + '&'
+
+        }
+        console.log(seachobj)
+
+        window.location = '/SwipeInfo/transform?' + seachobj;
+    }
+</script>
